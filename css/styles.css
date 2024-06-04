@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(../img/fundo.jpeg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 400px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+h1 {
+    margin-top: 40px;
+    color: #fff;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+.campo {
+    height: 20px;
+    color: #fff;
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 20px;
+}
+.esqueci{
+    margin-bottom: 20px;
+}
+.termos {
+    font-size: 12px;
+}
+input::placeholder{
+    color: #ddd;
+}
+.checkbox {
+    margin-right: 5px;
+}
+p {
+    display: inline-block;
+    color: #ddd;
+}
+p:last-child{
+    margin-top: 10px;
+}
+a {
+    color: #0051FF;
+}
+a:hover{
+    color: #0000ff;
+}
+button {
+    background-color: #fff;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+}
